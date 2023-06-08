@@ -33,9 +33,12 @@ header{
 }
 .row{
     /* background-color: #0561de; */
-    position: relative;
+    position: fixed;
     bottom: 0;
     text-align: center;
+    left: 0;
+    right: 0;
+    padding: 0 0 5px;
 }
 .row ul{
     display: flex;
@@ -78,11 +81,12 @@ header{
     background-image: url(tobbb.png);
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 35vh;
-    max-width: 300px;
+    height: 35vh;
+    width: 300px;
     padding-top: 10rem;
     color: #ffffff;
-}.row ul li a i.bxs-purchase-tag-alt{
+}
+.row ul li a i.bxs-purchase-tag-alt{
     transform: rotate(90deg);
 }
 .col .backcolor{
@@ -99,4 +103,13 @@ header{
 .col .backcolor p:nth-child(3){
     font-size: 12px;
     width: 100%;
+}
+@media(max-width: 490px){
+    .row{
+        padding: 0 20px;
+    }
+    .col .rowtex{
+        max-width: 300px;
+        /* background-image: none; */
+    }
 }
