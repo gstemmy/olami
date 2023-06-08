@@ -119,7 +119,7 @@ header a::after{
 }
 .col .met .wallet a{
     margin: auto;
-    width: 60%;
+    width: 70%;
     display: block;
     color: wheat;
     background-color: black;
@@ -133,7 +133,7 @@ header a::after{
 }
 .col .met .wallet a span{
     margin: auto;
-    width: 150px;
+    width: 165px;
     display: flex;
     align-items: center;
 }
@@ -160,7 +160,7 @@ header a::after{
     padding-right: 2px;
 }
 .col .met .verif i{
-    width: 120px;
+    width: 139px;
     /* background-color: aqua; */
     margin: auto;
     display: flex;
@@ -388,7 +388,7 @@ input::placeholder{
         font-size: 10px;
     }
     .col .met .wallet a span{
-        width: 113px;
+        width: 170px;
     }
     .col .row .rowtex{
         padding-top: 10rem;
