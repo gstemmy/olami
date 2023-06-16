@@ -352,7 +352,8 @@ input::placeholder{
     display: none;
 }
 .ticket{
-    display: block;
+    z-index: 1000;
+    display: none;
     position: absolute;
     top: 24.5rem;
     left: 0;
