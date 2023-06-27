@@ -82,7 +82,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     height: 35vh;
-    width: 300px;
+    width: 100%;
     padding-top: 10rem;
     color: #ffffff;
 }
@@ -111,5 +111,11 @@ header{
     .col .rowtex{
         max-width: 300px;
         /* background-image: none; */
+    }
+}
+
+@media(max-width: 412px){
+    .col .rowtex{
+        width: 100%;
     }
 }
